@@ -11,6 +11,8 @@ while (stable==1) :
             t[j] = tmp
             stable = 1
 
-for x in range(10):
+x=0
+while x<10:
     print(t[x])
+    x+=1
 
